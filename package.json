@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "food app website APIs",
   "main": "server.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "server": "nodemon server.js",
-    "production":"node server.js"
+    "production": "node server.js"
   },
   "author": "ashish",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
